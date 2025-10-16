@@ -1,6 +1,6 @@
 # Design Considerations
 
-- All 100% clientside, privacy-first; the local image you work on only stays in memory in the browser, never leaves your device
+- All 100% clientside, privacy-first; the local image you work on only stays in memory in the browser, the page never accesses the internet
 - Mobile-first, these github-based widgets I'm building are all things I wish iOS provided out of the box tbh. Now at least I can access them if I have internet.
 - Undo should also undo movement of a handle
 - Undoing a cut/crop should restore the shape of the selection (really thankful for this, sometimes you accidentally hit crop when you meant cut, but it's so easy to undo then tap the other button)
